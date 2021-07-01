@@ -1,10 +1,10 @@
-#include <iostream>
+#include <stdio.h>
 #include <limits.h>
 
 int main()
 {
     int digitInteger;
-   
+
     printf("Min: char =  %d\n", CHAR_MIN);
     printf("Max: char =  %d\n", CHAR_MAX);
 
@@ -23,7 +23,7 @@ int main()
     printf("Min: unsigned int =  %s\n", "nicht definiert");
     printf("Max: unsigned int =  %u\n", UINT_MAX);
 
-    scanf_s("%d", &digitInteger);
+    scanf("%d", &digitInteger);
 
     /*
     define CHAR_BIT      8

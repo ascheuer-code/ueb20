@@ -1,7 +1,4 @@
-// ueb20.cpp : Diese Datei enthält die Funktion "main". Hier beginnt und endet die Ausführung des Programms.
-//
 
-#include <iostream>
 #include <stdio.h>
 
 int main()
@@ -11,7 +8,7 @@ int main()
     printf( "Nettopreis eingeben:\n");
     double preis;
 
-    scanf_s("%lf", &preis);
+    scanf("%lf", &preis);
     double Bruttopreis = preis * 1.2;
     double Rechnungsbetrag = Bruttopreis * 0.98;
 
@@ -22,7 +19,7 @@ int main()
     printf("%-20s %-4s %-.2lf\n", "- 2% Skonto", "Euro", Bruttopreis*0.02);
     printf("%-30s", "==============================================\n");
     printf("%-20s %-4s %-.2lf\n", "Rechnungsbetrag", "Euro", Rechnungsbetrag);
-    scanf_s("%lf", &preis);
+    scanf("%lf", &preis);
     
 
 }
