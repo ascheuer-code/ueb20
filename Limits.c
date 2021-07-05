@@ -34,12 +34,12 @@ int main()
     printf("#define INT_MIN     (-2147483647 - 1) \n");
     printf("#define INT_MAX       2147483647\n");
 
-    printf("\n");
+    printf("nicht definiert\n");
     printf("#define UCHAR_MAX     0xff\n");
 
-    printf("\n");
+    printf("nicht definiert\n");
     printf("#define USHRT_MAX     0xffff\n");
 
-    printf("\n");
+    printf("nicht definiert\n");
     printf("#define UINT_MAX      0xffffffff\n");
 }
