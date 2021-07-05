@@ -3,7 +3,65 @@
 
 int main()
 {
-    int digitInteger;
+    char a = 0;
+    char b = 1;
+    while (a > 0)
+    {
+        a++;
+        b++;
+    }
+
+    printf("char min %d , char max %d", a, b);
+
+    int c = 0;
+    int d = 1;
+    while (c > 0)
+    {
+        c++;
+        d++;
+    }
+
+    printf("char min %d , char max %d", c, d);
+
+    short e = 0;
+    short f = 1;
+    while (e > 0)
+    {
+        e++;
+        f++;
+    }
+
+    printf("char min %d , char max %d", e, f);
+
+    unsigned char g = 0;
+    unsigned char h = 1;
+    while (g > 0)
+    {
+        g++;
+        h++;
+    }
+
+    printf("char min %d , char max %d", g, h);
+
+    unsigned int i = 0;
+    unsigned int j = 1;
+    while (i > 0)
+    {
+        i++;
+        j++;
+    }
+
+    printf("char min %d , char max %d", i, j);
+
+    unsigned short k = 0;
+    unsigned short l = 1;
+    while (k > 0)
+    {
+        k++;
+        l++;
+    }
+
+    printf("char min %d , char max %d", k, l);
 
     printf("Min: char =  %d\n", CHAR_MIN);
     printf("Max: char =  %d\n", CHAR_MAX);
@@ -22,24 +80,4 @@ int main()
 
     printf("Min: unsigned int =  %s\n", "nicht definiert");
     printf("Max: unsigned int =  %u\n", UINT_MAX);
-
-    printf("\nWerte der Bibliotheke:");
-
-    printf("#define SCHAR_MIN   (-128)\n");
-    printf("#define SCHAR_MAX     127\n");
-
-    printf("#define SHRT_MIN    (-32768)\n");
-    printf("#define SHRT_MAX      32767\n");
-
-    printf("#define INT_MIN     (-2147483647 - 1) \n");
-    printf("#define INT_MAX       2147483647\n");
-
-    printf("nicht definiert\n");
-    printf("#define UCHAR_MAX     0xff\n");
-
-    printf("nicht definiert\n");
-    printf("#define USHRT_MAX     0xffff\n");
-
-    printf("nicht definiert\n");
-    printf("#define UINT_MAX      0xffffffff\n");
 }
