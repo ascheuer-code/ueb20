@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int square(int x)
+void square(int x)
 {
     x = x * x;
 }
